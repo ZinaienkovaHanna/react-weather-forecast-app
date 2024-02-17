@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Roboto', 'Inter', 'Segoe UI', 'Oxygen', sans-serif;
+    box-sizing: border-box;
+    background: var(--backgroundColor);
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* ### Color */
+    --textColor: #1e2b2c;
+    --textPlaceholderColor: #798989;
+    --textDatesColor: #798989;
+
+    --backgroundColor: #dfeeee;
+    --backgroundModalColor: rgba(92, 93, 94, 0.4);
+    --backgroundFormColor: #f3f2f5;
+    --backgroundInputColor: #fff;
+
+    --invalidColor: rgb(228, 101, 101);
+    --borderActiveCardColor: #5a4ff3;
+    --iconColor: #6f7b7d;
+
+    /* ### Spacing */
+    --spacingBase: 8px;
+    --spacingExtraSmall: 4px;
+    --spacingSmall: 12px;
+    --spacingMedium: 16px;
+    --spacingExtraMedium: 24px;
+    --spacingLarge: 40px;
+    --spacingExtraLarge: 60px;
+
+    /* ### Font-size */
+    --fontSizeBase: 16px;
+    --fontSizeSmall: 12px;
+    --fontSizeMedium: 20px;
+    --fontSizeLarge: 24px;
+    --fontSizeExtraLarge: 36px;
+
+    /* ### Font-weight */
+    --fontWeightLight: 300;
+    --fontWeightRegular: 400;
+    --fontWeightMedium: 500;
+
+    /* ### Border-radius */
+    --borderRadiusBase: 8px;
+
+    /* ### Width */
+    --containerDesktopWidth: 1200px;
+    --containerTabletWidth: 768px;
+    --containerMobileWidth: 375px;
+
+    /* ### Height */
+
+    /* ### Margin */
+}
